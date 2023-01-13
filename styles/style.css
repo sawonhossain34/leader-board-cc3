@@ -50,10 +50,16 @@ align-items: center;
 }
 hr{
     border:1px solid #F3F1FF;
+    margin-bottom: 27px;
 }
 
 
 /* top blog styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap:26px;
+}
 .blog{
     display:flex;
 }
